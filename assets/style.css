@@ -74,7 +74,7 @@ p{margin:0}
 /* showcase */
 .showcase{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:64px;align-items:center}
 @media (max-width:900px){.showcase{grid-template-columns:1fr;gap:48px}}
-.game-logo{width:min(440px,86%);margin:0 0 18px -18px;filter:drop-shadow(0 12px 40px rgba(95,198,255,.25))}
+.game-logo{width:min(440px,86%);height:auto;margin:0 0 18px;filter:drop-shadow(0 12px 40px rgba(95,198,255,.25))}
 .showcase h3{font-size:clamp(28px,3.4vw,40px);font-weight:800;margin-bottom:14px}
 .showcase .pitch{color:var(--muted);font-size:18px;max-width:52ch}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 28px}
