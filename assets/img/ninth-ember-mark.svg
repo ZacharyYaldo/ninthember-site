@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-labelledby="t">
+  <title id="t">Ninth Ember mark</title>
+  <defs>
+    <linearGradient id="ne-g" x1="0" y1="1" x2="0.4" y2="0">
+      <stop offset="0" stop-color="#ff3d1f"/>
+      <stop offset="0.55" stop-color="#ff7a1a"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+    <linearGradient id="ne-f" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ff3d1f"/>
+      <stop offset="1" stop-color="#ffd37a"/>
+    </linearGradient>
+    <filter id="ne-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .55 0" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#ne-glow)">
+    <!-- loop of the 9 -->
+    <path fill="url(#ne-g)" fill-rule="evenodd" d="M104 62a44 44 0 1 1 0 88a44 44 0 1 1 0-88Zm0 22a22 22 0 1 0 0 44a22 22 0 1 0 0-44Z"/>
+    <!-- left stroke -->
+    <path fill="url(#ne-g)" d="M62 92 L82 112 L82 208 L62 208 Z"/>
+    <!-- diagonal tail -->
+    <path fill="url(#ne-g)" d="M98 132 L124 132 L166 208 L140 208 Z"/>
+    <!-- inner flame -->
+    <path fill="url(#ne-f)" d="M104 84c4 8 14 12 14 24c0 8-6 14-14 14s-14-6-14-14c0-6 4-9 6-13c1 4 3 6 6 6c-2-6 0-12 2-17Z"/>
+    <!-- nine small flames on an arc -->
+    <g fill="url(#ne-f)">
+      <path transform="translate(38 78) rotate(-58)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+      <path transform="translate(50 56) rotate(-44)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+      <path transform="translate(66 40) rotate(-30)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+      <path transform="translate(84 30) rotate(-15)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+      <path transform="translate(104 26)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+      <path transform="translate(124 30) rotate(15)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+      <path transform="translate(142 40) rotate(30)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+      <path transform="translate(158 56) rotate(44)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+      <path transform="translate(170 78) rotate(58)" d="M0-6c2 3 4 4 4 8a4 4 0 0 1-8 0c0-3 2-5 4-8Z"/>
+    </g>
+  </g>
+</svg>
