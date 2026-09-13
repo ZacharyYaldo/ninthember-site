@@ -92,7 +92,6 @@ p{margin:0}
 .phone-wrap{display:grid;place-items:center;position:relative}
 .phone-wrap::before{content:"";position:absolute;width:80%;aspect-ratio:1;border-radius:50%;background:radial-gradient(closest-side,rgba(95,198,255,.22),rgba(255,122,26,.12) 55%,transparent 75%);filter:blur(30px);pointer-events:none}
 .phone{position:relative;width:min(360px,88vw);aspect-ratio:390/844;border-radius:46px;background:#0a0a0f;border:1px solid rgba(255,255,255,.14);box-shadow:0 0 0 8px #15151c,0 0 0 9px rgba(255,255,255,.08),0 40px 100px -20px rgba(0,0,0,.9),0 0 80px -20px rgba(95,198,255,.35);overflow:hidden}
-.phone .notch{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:34%;height:22px;background:#0a0a0f;border-radius:999px;z-index:3}
 .phone .screen{position:absolute;inset:0;width:100%;height:100%;border:0;background:#0b0d16}
 .phone img.screen{object-fit:cover}
 .phone .play-overlay{position:absolute;inset:0;z-index:2;display:grid;place-items:center;background:linear-gradient(180deg,rgba(7,7,11,.05),rgba(7,7,11,.55));border:0;cursor:pointer;color:var(--text);font-family:var(--body);padding:0;transition:opacity .3s}
