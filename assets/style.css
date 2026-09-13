@@ -34,12 +34,12 @@ p{margin:0}
 .nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:18px 0;transition:background .3s,backdrop-filter .3s}
 .nav.scrolled{background:rgba(7,7,11,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .nav .wrap{display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:-.01em}
+.brand{display:flex;align-items:center;gap:10px;white-space:nowrap;text-decoration:none;font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:-.01em}
 .brand svg{width:26px;height:26px}
 .nav-links{display:flex;gap:28px;list-style:none;margin:0;padding:0}
 .nav-links a{text-decoration:none;color:var(--muted);font-size:15px;font-weight:500;transition:color .2s}
 .nav-links a:hover{color:var(--text)}
-@media (max-width:640px){.nav-links{gap:18px}.nav-links a{font-size:14px}}
+@media (max-width:640px){.nav-links{gap:14px}.nav-links a{font-size:14px}.brand{font-size:17px}}
 
 /* hero */
 .hero{position:relative;min-height:100svh;display:grid;place-items:center;text-align:center;overflow:hidden;padding:120px 0 80px}
